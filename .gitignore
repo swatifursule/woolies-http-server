@@ -1,0 +1,16 @@
+.idea/
+.vscode/
+node_modules/
+dist/
+lib/
+tmp/
+temp/
+*.log
+log/
+coverage/
+.env
+.tscache
+sessions/
+certs/
+.DS_Store
+scripts/.DS_Store
