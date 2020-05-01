@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 
 import { checkParams } from '../../middleware/checkParams'
-import { checkAuth } from '../../middleware/checkAuth'
+
 
 import {getUserName } from './userController'
 export default [

@@ -1,7 +1,6 @@
 import { Request, Response } from 'express'
 
 import { checkParams } from '../../middleware/checkParams'
-import { checkAuth } from '../../middleware/checkAuth'
 
 import {sort } from './sortController'
 export default [
