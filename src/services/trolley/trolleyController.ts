@@ -1,4 +1,3 @@
-import adminApp from '../firebase'
 import { string } from 'yup'
 import axios from 'axios'
 import { get, orderBy } from 'lodash'
