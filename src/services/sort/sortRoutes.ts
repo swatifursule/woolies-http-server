@@ -2,7 +2,7 @@ import { Request, Response } from 'express'
 
 import { checkParams } from '../../middleware/checkParams'
 
-import {sort } from './sortController'
+import { sort } from './sortController'
 export default [
 	{
 		path: '/api/answers/sort',
@@ -22,4 +22,3 @@ export default [
 		]
 	}
 ]
-

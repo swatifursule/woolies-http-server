@@ -2,7 +2,7 @@ import { Request, Response } from 'express'
 
 import { checkParams } from '../../middleware/checkParams'
 
-import {trolleyTotal } from './trolleyController'
+import { trolleyTotal } from './trolleyController'
 export default [
 	{
 		path: '/api/answers/trolleyTotal',
@@ -11,11 +11,11 @@ export default [
 			checkParams,
 			//checkAuth, - authentication and authoriztion not required
 			async (req: Request, res: Response) => {
-				console.log("calling trolleyTotal ", req.body)
+				console.log('calling trolleyTotal ', req.body)
 				trolleyTotal(req.body)
 					.then(result => {
-						console.log("result ", result)
-						res.status(200).send({result})
+						console.log('result ', result)
+						res.status(200).send({ result })
 					})
 					.catch(error => {
 						res.status(500).send(error)
@@ -24,4 +24,3 @@ export default [
 		]
 	}
 ]
-

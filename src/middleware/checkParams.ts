@@ -6,7 +6,6 @@ export const checkParams = (
 	res: Response,
 	next: NextFunction
 ) => {
-
 	if (!req.body) {
 		throw new HTTP400Error('Missing body ')
 	}

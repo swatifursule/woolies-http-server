@@ -2,8 +2,7 @@ import { Request, Response } from 'express'
 
 import { checkParams } from '../../middleware/checkParams'
 
-
-import {getUserName } from './userController'
+import { getUserName } from './userController'
 export default [
 	{
 		path: '/api/answers/user',
@@ -23,4 +22,3 @@ export default [
 		]
 	}
 ]
-

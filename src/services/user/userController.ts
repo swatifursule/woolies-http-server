@@ -8,13 +8,8 @@ import {
 	HTTPClientError
 } from '../../utils/httpErrors'
 
-
-
 export async function getUserName() {
-
-
 	return {
-		name: "Swati Fursule"
+		name: 'Swati Fursule'
 	}
 }
-

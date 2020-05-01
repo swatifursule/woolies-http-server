@@ -1,6 +1,5 @@
 import { NextFunction, Response, Request } from 'express'
 
-
 async function auth(req: Request, res: Response, next: NextFunction) {
 	if (
 		req &&
