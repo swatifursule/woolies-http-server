@@ -5,13 +5,13 @@ import {
 	handleAuth
 } from './common'
 
-import { handleAPIDocs } from './apiDocs'
+//import { handleAPIDocs } from './apiDocs'
 
 
 export default [
 	handleCors,
 	handleBodyRequestParsing,
 	handleCompression,
-	handleAPIDocs,
+	//handleAPIDocs,
 	handleAuth
 ]
