@@ -36,7 +36,7 @@
     "@types/supertest": "^2.0.7",
     "@types/swagger-ui-express": "^4.0.2",
     "@types/yup": "^0.26.33",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "compression": "^1.7.3",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
